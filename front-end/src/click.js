@@ -1,12 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import openSocket from 'socket.io-client';
-//import Websocket from 'react-websocket';
-//const WebSocket = require('ws');
-//const socket = new WebSocket('http://localhost:4001/guests/current')
-
-//var socket = new WebSocket
 
 class Clicker extends React.Component {
 	constructor() {
@@ -59,9 +53,6 @@ class Clicker extends React.Component {
 			</div>
 		);
 	};
-}
+} //
 
-ReactDOM.render(
-	<Clicker />,
-	document.getElementById('root')
-);
+export default Clicker

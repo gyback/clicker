@@ -1,19 +1,25 @@
 {
   "name": "clicker",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-router": "^4.3.1",
-    "react-scripts": "1.1.5",
-    "react-websocket": "^2.0.0",
-    "ws": "^6.0.0"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "session.socket.io": "^0.2.1",
+    "socket.io": "^2.1.1"
   }
 }
